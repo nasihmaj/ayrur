@@ -63,4 +63,32 @@ footer {
     margin-top: 20px;
     padding-top: 10px;
 }
+.product {
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+.product img {
+    width: 100%; /* Adjust based on your layout needs */
+    max-width: 300px; /* Ensures images are not overly large */
+    height: auto;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
 
