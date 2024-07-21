@@ -1,0 +1,54 @@
+/* General Body and Background Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #d7f0db; /* Light green background color */
+    background-image: url('../images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Header and Navigation Styles */
+header {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Section Styles */
+section {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.8);
+}
+
+/* Heading Styles */
+h1, h2 {
+    color: #333;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #222;
+    color: #fff;
+}
